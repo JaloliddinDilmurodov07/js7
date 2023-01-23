@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612787288_73-p-goluboi-raduzhnii-fon-81.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+}
+h1:hover{
+    color: blueviolet;
+}
+.container{
+    width: 500px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+.inp{
+    
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-left: 50px;
+    font-size: 17px;
+    border:none;
+    outline:none;
+    height: 40px;
+    box-shadow:0 0 5px rgb(0, 167, 106) inset;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 19px;
+    border:none;
+    outline:none;
+    width: 100px;
+    height: 40px;
+    color:rgb(253, 253, 253);
+    background-color: blue;
+    border:2px solid white;
+    text-decoration: none;
+}
+.btn:hover{
+    color: rgb(0, 167, 106);
+}
